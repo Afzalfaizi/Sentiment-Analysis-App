@@ -1,6 +1,6 @@
-import streamlit as st # pip install streamlit
-from textblob import TextBlob  # pip install textblob
-import nltk     #pip install nltk
+import streamlit as st 
+from textblob import TextBlob  
+import nltk    
 nltk.download('vader_lexicon')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import random
